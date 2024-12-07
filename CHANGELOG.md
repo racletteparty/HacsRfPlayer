@@ -1,3 +1,23 @@
+# [2.0.0](https://github.com/racletteparty/HacsRfPlayer/compare/v1.0.0...v2.0.0) (2024-12-07)
+
+
+### Bug Fixes
+
+* resolve command concurrency and pairing issues ([#103](https://github.com/racletteparty/HacsRfPlayer/issues/103)) ([#102](https://github.com/racletteparty/HacsRfPlayer/issues/102)) ([0acbfec](https://github.com/racletteparty/HacsRfPlayer/commit/0acbfecc0d515d885eab29ddded8ef6799c689a8))
+* resolve empty init commands issue ([abb8309](https://github.com/racletteparty/HacsRfPlayer/commit/abb8309dc8995edd68da41eceddddffe3c9f7f95))
+* resolves rts device address issue ([#97](https://github.com/racletteparty/HacsRfPlayer/issues/97)) ([f83617b](https://github.com/racletteparty/HacsRfPlayer/commit/f83617b9853b8a5322f677cf802cc81611490495))
+
+
+### Features
+
+* complete rewrite of the rfplayer integration ([1502ad8](https://github.com/racletteparty/HacsRfPlayer/commit/1502ad80621fa2bd09d53b80dd2285330412d118))
+* empty string support for init commands and improved receiver mode configuration ([38003e2](https://github.com/racletteparty/HacsRfPlayer/commit/38003e2c4efc1f9b5ce3c40e1dc558c324928e90))
+
+
+### BREAKING CHANGES
+
+* installing the new version will breaking any existing instance because the configuration is different and there is no migration support
+
 ## [1.0.2](https://github.com/gce-electronics/HA_RFPlayer/compare/v1.0.1...v1.0.2) (2024-11-13)
 
 
